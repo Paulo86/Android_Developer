@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="android-support-v433">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/A_022_ListView_Adapter/libs/android-support-v4.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

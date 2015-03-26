@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/A_020_Imageview/A_020_Imageview.iml" filepath="$PROJECT_DIR$/A_020_Imageview/A_020_Imageview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/A_021_Spinner/A_021_Spinner.iml" filepath="$PROJECT_DIR$/A_021_Spinner/A_021_Spinner.iml" />
+      <module fileurl="file://$PROJECT_DIR$/A_022_ListView/A_022_ListView.iml" filepath="$PROJECT_DIR$/A_022_ListView/A_022_ListView.iml" />
+      <module fileurl="file://$PROJECT_DIR$/A_022_ListView_Adapter/A_022_ListView_Adapter.iml" filepath="$PROJECT_DIR$/A_022_ListView_Adapter/A_022_ListView_Adapter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/A_023_Intent/A_023_Intent.iml" filepath="$PROJECT_DIR$/A_023_Intent/A_023_Intent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/A_024_Library/A_024_Library.iml" filepath="$PROJECT_DIR$/A_024_Library/A_024_Library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/A_024_Library_Demo/A_024_Library_Demo.iml" filepath="$PROJECT_DIR$/A_024_Library_Demo/A_024_Library_Demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/A_024_Library_Demo_Jar/A_024_Library_Demo_Jar.iml" filepath="$PROJECT_DIR$/A_024_Library_Demo_Jar/A_024_Library_Demo_Jar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/A_025_Alert/A_025_Alert.iml" filepath="$PROJECT_DIR$/A_025_Alert/A_025_Alert.iml" />
+      <module fileurl="file://$PROJECT_DIR$/A_026_Activity_LC/A_026_Activity_LC.iml" filepath="$PROJECT_DIR$/A_026_Activity_LC/A_026_Activity_LC.iml" />
+      <module fileurl="file://$PROJECT_DIR$/A_027_Tabs/A_027_Tabs.iml" filepath="$PROJECT_DIR$/A_027_Tabs/A_027_Tabs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/A_028_DBase/A_028_DBase.iml" filepath="$PROJECT_DIR$/A_028_DBase/A_028_DBase.iml" />
+      <module fileurl="file://$PROJECT_DIR$/A_028_DBase_ex/A_028_DBase_ex.iml" filepath="$PROJECT_DIR$/A_028_DBase_ex/A_028_DBase_ex.iml" />
+      <module fileurl="file://$PROJECT_DIR$/A_029_CProvider/A_029_CProvider.iml" filepath="$PROJECT_DIR$/A_029_CProvider/A_029_CProvider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/A_030_IntentFilter/A_030_IntentFilter.iml" filepath="$PROJECT_DIR$/A_030_IntentFilter/A_030_IntentFilter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/A_031_Broadcast_Receiver/A_031_Broadcast_Receiver.iml" filepath="$PROJECT_DIR$/A_031_Broadcast_Receiver/A_031_Broadcast_Receiver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/A_031_Broadcast_Receiver_OnCode/A_031_Broadcast_Receiver_OnCode.iml" filepath="$PROJECT_DIR$/A_031_Broadcast_Receiver_OnCode/A_031_Broadcast_Receiver_OnCode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/A_031_Broadcast_Sender/A_031_Broadcast_Sender.iml" filepath="$PROJECT_DIR$/A_031_Broadcast_Sender/A_031_Broadcast_Sender.iml" />
+      <module fileurl="file://$PROJECT_DIR$/A_032_Thread/A_032_Thread.iml" filepath="$PROJECT_DIR$/A_032_Thread/A_032_Thread.iml" />
+      <module fileurl="file://$PROJECT_DIR$/A_033_AsyncTask/A_033_AsyncTask.iml" filepath="$PROJECT_DIR$/A_033_AsyncTask/A_033_AsyncTask.iml" />
+      <module fileurl="file://$PROJECT_DIR$/A_034_BatLevel/A_034_BatLevel.iml" filepath="$PROJECT_DIR$/A_034_BatLevel/A_034_BatLevel.iml" />
+      <module fileurl="file://$PROJECT_DIR$/A_035_Notificacao/A_035_Notificacao.iml" filepath="$PROJECT_DIR$/A_035_Notificacao/A_035_Notificacao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/A_036_Service/A_036_Service.iml" filepath="$PROJECT_DIR$/A_036_Service/A_036_Service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/A_037_IntentService/A_037_IntentService.iml" filepath="$PROJECT_DIR$/A_037_IntentService/A_037_IntentService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/A_038_Alarms/A_038_Alarms.iml" filepath="$PROJECT_DIR$/A_038_Alarms/A_038_Alarms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/A_038_Application/A_038_Application.iml" filepath="$PROJECT_DIR$/A_038_Application/A_038_Application.iml" />
+      <module fileurl="file://$PROJECT_DIR$/A_039_Http/A_039_Http.iml" filepath="$PROJECT_DIR$/A_039_Http/A_039_Http.iml" />
+      <module fileurl="file://$PROJECT_DIR$/A_040_SoapContatos/A_040_SoapContatos.iml" filepath="$PROJECT_DIR$/A_040_SoapContatos/A_040_SoapContatos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/A_Ex_001_CheckBox_RadioButton/A_Ex_001_CheckBox_RadioButton.iml" filepath="$PROJECT_DIR$/A_Ex_001_CheckBox_RadioButton/A_Ex_001_CheckBox_RadioButton.iml" />
+      <module fileurl="file://$PROJECT_DIR$/A_Ex_Json/A_Ex_Json.iml" filepath="$PROJECT_DIR$/A_Ex_Json/A_Ex_Json.iml" />
+      <module fileurl="file://$PROJECT_DIR$/A_Ex_SMS/A_Ex_SMS.iml" filepath="$PROJECT_DIR$/A_Ex_SMS/A_Ex_SMS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/A_Final/A_Final.iml" filepath="$PROJECT_DIR$/A_Final/A_Final.iml" />
+      <module fileurl="file://$PROJECT_DIR$/A_ViewPager_Ex/A_ViewPager_Ex.iml" filepath="$PROJECT_DIR$/A_ViewPager_Ex/A_ViewPager_Ex.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Ex_BarCode/Ex_BarCode.iml" filepath="$PROJECT_DIR$/Ex_BarCode/Ex_BarCode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Ex_Connections/Ex_Connections.iml" filepath="$PROJECT_DIR$/Ex_Connections/Ex_Connections.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Ex_Data/Ex_Data.iml" filepath="$PROJECT_DIR$/Ex_Data/Ex_Data.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Ex_Drawer/Ex_Drawer.iml" filepath="$PROJECT_DIR$/Ex_Drawer/Ex_Drawer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Ex_Fragment/Ex_Fragment.iml" filepath="$PROJECT_DIR$/Ex_Fragment/Ex_Fragment.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Ex_GPS/Ex_GPS.iml" filepath="$PROJECT_DIR$/Ex_GPS/Ex_GPS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/J_Gen_Extra/J_Gen_Extra.iml" filepath="$PROJECT_DIR$/J_Gen_Extra/J_Gen_Extra.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab_020_Cadastro/Lab_020_Cadastro.iml" filepath="$PROJECT_DIR$/Lab_020_Cadastro/Lab_020_Cadastro.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab_021_Contato/Lab_021_Contato.iml" filepath="$PROJECT_DIR$/Lab_021_Contato/Lab_021_Contato.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab_022_Lista_Contatos/Lab_022_Lista_Contatos.iml" filepath="$PROJECT_DIR$/Lab_022_Lista_Contatos/Lab_022_Lista_Contatos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab_033_BroadCast_Threads/Lab_033_BroadCast_Threads.iml" filepath="$PROJECT_DIR$/Lab_033_BroadCast_Threads/Lab_033_BroadCast_Threads.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab_037_IntentService_Contador/Lab_037_IntentService_Contador.iml" filepath="$PROJECT_DIR$/Lab_037_IntentService_Contador/Lab_037_IntentService_Contador.iml" />
+    </modules>
+  </component>
+</project>
+

@@ -1,0 +1,12 @@
+package br.curso.ex_drawer;
+
+import android.support.v4.app.Fragment;
+import android.widget.Button;
+
+public class Frag_02 extends Fragment {
+	
+	private Button btn_mudar;
+	private 
+	
+
+}

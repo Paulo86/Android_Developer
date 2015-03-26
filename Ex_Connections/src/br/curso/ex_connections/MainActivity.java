@@ -1,0 +1,115 @@
+package br.curso.ex_connections;
+
+import android.app.Activity;
+import android.content.BroadcastReceiver;
+import android.content.Context;
+import android.content.Intent;
+import android.content.IntentFilter;
+import android.net.ConnectivityManager;
+import android.net.NetworkInfo;
+import android.os.Bundle;
+import android.view.Menu;
+import android.view.View;
+import android.view.View.OnClickListener;
+import android.widget.Button;
+import android.widget.Toast;
+
+public class MainActivity extends Activity {
+
+	private Context context;
+	//
+	private Button btn_check;
+	private String sTipo = "";
+
+	private ConnectionReceiver receiver;
+
+	private static final String TIPO_WIFI = "CONEXO WIFI";
+	private static final String TIPO_OPERADORA = "CONEXO OPERADORA";
+	private static final String TIPO_NO_CONNECTION = "SEM CONEXAO";
+
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.telainicial);
+		//
+		context = getBaseContext();
+		//
+		btn_check = (Button) findViewById(R.id.btn_check);
+		btn_check.setOnClickListener(new OnClickListener() {
+
+			@Override
+			public void onClick(View v) {
+				check_status();
+				//
+				Toast.makeText(context, sTipo, Toast.LENGTH_SHORT).show();
+			}
+		});
+		//
+		receiver = new ConnectionReceiver();
+		//
+		IntentFilter filter = new IntentFilter(
+				"android.net.conn.CONNECTIVITY_CHANGE");
+		filter.addCategory(Intent.CATEGORY_DEFAULT);
+		registerReceiver(receiver, filter);
+	}
+
+	@Override
+	protected void onDestroy() {
+		unregisterReceiver(receiver);
+		//
+		super.onDestroy();
+	}
+
+	protected boolean check_status() {
+		boolean bResultado = false;
+		//
+		try {
+			ConnectivityManager connManager = (ConnectivityManager) context
+					.getSystemService(CONNECTIVITY_SERVICE);
+			//
+			NetworkInfo mWifi = connManager
+					.getNetworkInfo(ConnectivityManager.TYPE_WIFI);
+
+			NetworkInfo mMobile = connManager
+					.getNetworkInfo(ConnectivityManager.TYPE_MOBILE);
+
+			if (mWifi.isAvailable() && mWifi.isConnected()) {
+				sTipo = TIPO_WIFI;
+				//
+				return true;
+			}
+
+			if (mMobile.isAvailable() && mMobile.isConnected()) {
+				sTipo = TIPO_OPERADORA;
+				//
+				return true;
+			}
+
+		} catch (Exception e) {
+			// TODO: handle exception
+		}
+		//
+		sTipo = TIPO_NO_CONNECTION;
+
+		return bResultado;
+	}
+
+	@Override
+	public boolean onCreateOptionsMenu(Menu menu) {
+		// Inflate the menu; this adds items to the action bar if it is present.
+		getMenuInflater().inflate(R.menu.main, menu);
+		return true;
+	}
+
+	private class ConnectionReceiver extends BroadcastReceiver {
+
+		@Override
+		public void onReceive(Context context, Intent intent) {
+			check_status();
+			//
+			Toast.makeText(context, sTipo, Toast.LENGTH_SHORT).show();
+		}
+
+	}
+
+}

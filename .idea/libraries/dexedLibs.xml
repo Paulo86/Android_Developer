@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="dexedLibs">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/A_040_SoapContatos/bin/dexedLibs/ksoap2-android-assembly-3.3.0-jar-with-dependencies-6a1ebb9e778a66f811a68e2efe783cad.jar!/" />
+      <root url="jar://$PROJECT_DIR$/A_040_SoapContatos/bin/dexedLibs/android-support-v4-686850028e608a7ac569a07e40e4f003.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

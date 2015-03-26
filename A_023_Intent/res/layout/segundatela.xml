@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Segunda Tela"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/segundatela_tv_valor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0" />
+
+    <Button
+        android:id="@+id/segundatela_btn_fim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fim" />
+
+    <Button
+        android:id="@+id/segundatela_retornar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Retornar" />
+
+</LinearLayout>
